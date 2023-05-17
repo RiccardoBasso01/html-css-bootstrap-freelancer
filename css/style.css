@@ -10,6 +10,38 @@
     --bgc-footer: var(--bgc-header);
     --bgc-jumbo: var(--color-primary);
     --color-primary: #1abc9c;
-    --color-secondary: fff;
+    --color-secondary: #fff;
     --dark-blue: #2c3e50;
+    --light-blue: #3a546d;
+
+    --bs-nav-link-font-size: 0.8rem;
+    --bs-nav-link-hover-color: red;
+}
+
+/* HEADER */
+header{
+    background-color: var(--bgc-header);
+}
+
+/* SFONDO SEZIONI */
+section:nth-of-type(odd):not(:last-of-type){
+    background-color: var(--color-primary);
+}
+
+footer section{
+    background-color: var(--light-blue);
+}
+
+/* MAIN */
+.cards div[class^="col-"]{
+    background-color: var(--dark-blue);
+}
+
+div[class^="col-"]{
+    border: 1px dashed white;
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--bgc-footer);
 }
