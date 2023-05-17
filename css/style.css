@@ -30,20 +30,26 @@ footer section{
 }
 
 /* MAIN */
-.cards div[class^="col-"]{
-    background-color: var(--dark-blue);
+.cards img{
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .rounded-img{
     height: 250px;
 }
 
+/* barre e stella */
 .bars{
     width: 100px;
     height: 5px;
     background-color: white;
     border-radius: 10px;
     margin: 0 20px;
+}
+
+.text-black .bars{
+    background-color: black;
 }
 /* FOOTER */
 footer{
