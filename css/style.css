@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FUNZIONALITÀ */
+:root{
+    --bgc-header: var(--dark-blue);
+    --bgc-footer: var(--bgc-header);
+    --bgc-jumbo: var(--color-primary);
+    --color-primary: #1abc9c;
+    --color-secondary: fff;
+    --dark-blue: #2c3e50;
+}
