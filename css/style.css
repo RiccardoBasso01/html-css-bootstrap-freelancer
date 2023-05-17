@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* FUNZIONALITÀ */
 :root{
     --bgc-header: var(--dark-blue);
@@ -13,9 +7,12 @@
     --color-secondary: #fff;
     --dark-blue: #2c3e50;
     --light-blue: #3a546d;
-
+    /* font-size link header da classi di boostrap */
     --bs-nav-link-font-size: 0.8rem;
-    --bs-nav-link-hover-color: red;
+}
+
+body{
+    color: white;
 }
 
 /* HEADER */
@@ -37,10 +34,17 @@ footer section{
     background-color: var(--dark-blue);
 }
 
-div[class^="col-"]{
-    border: 1px dashed white;
+.rounded-img{
+    height: 250px;
 }
 
+.bars{
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 20px;
+}
 /* FOOTER */
 footer{
     background-color: var(--bgc-footer);
