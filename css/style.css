@@ -4,11 +4,14 @@
     --bgc-footer: var(--bgc-header);
     --bgc-jumbo: var(--color-primary);
     --color-primary: #1abc9c;
+    --color-primary-dark: #0f6856;
     --color-secondary: #fff;
     --dark-blue: #2c3e50;
     --light-blue: #3a546d;
+    --form-color:#546271;
     /* font-size link header da classi di boostrap */
     --bs-nav-link-font-size: 0.8rem;
+
 }
 
 body{
@@ -51,7 +54,33 @@ footer section{
 .text-black .bars{
     background-color: black;
 }
+
+/* FORM */
+.btn.btn-primary:hover{
+    background-color: var(--color-primary-dark);
+}
+
+.btn.btn-primary{
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.form-control::placeholder{
+    color: var(--form-color);
+    font-weight: 500;
+}
+
+#form .form-control{
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    padding: 0.6rem 0;
+}
+
 /* FOOTER */
 footer{
     background-color: var(--bgc-footer);
+}
+
+footer span{
+    color: var(--color-primary);
 }
